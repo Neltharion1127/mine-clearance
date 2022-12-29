@@ -9,7 +9,7 @@ class Control extends React.Component<any, any> {
             info: {
                 row:this.props.info.row,
                 col:this.props.info.col
-            }
+            },
         }
     }
 

@@ -1,9 +1,23 @@
 .board{
   height: 30vw;
   width: 30vw;
+  min-width:600px;
+  min-height: 600px;
   background: #e0e0e0;
   margin: auto;
-  border: 1px solid black;
+  border: 2px solid black;
   display: flex;
   flex-wrap: wrap;
+  &-result{
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    p{
+      flex: 1;
+    }
+  }
 }
